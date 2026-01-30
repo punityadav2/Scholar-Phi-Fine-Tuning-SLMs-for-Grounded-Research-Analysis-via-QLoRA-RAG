@@ -1,0 +1,40 @@
+# Environments
+.venv/
+venv/
+env/
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model artifacts & large files
+models/
+outputs/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+
+# Datasets / caches
+data/
+datasets/
+cache/
+huggingface/
+.huggingface/
+
+# Logs
+*.log
+*.tmp
